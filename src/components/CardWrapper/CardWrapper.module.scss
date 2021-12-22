@@ -1,0 +1,7 @@
+@import "../../styles/mixins.scss";
+
+.card-wrapper {
+  @include flex(row, center, space-between, 20px);
+  flex-wrap: wrap;
+  width: 100%;
+}
