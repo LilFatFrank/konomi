@@ -1,0 +1,22 @@
+@import "~antd/dist/antd.css";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+}
+
+.app {
+  height: 100%;
+  background: var(--primary);
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  overflow: auto;
+  @include flex(row, center, center, "");
+  color: var(--white);
+}
+
+.font-secondary {
+  color: var(--secondary);
+}
