@@ -3,13 +3,14 @@ import {
   Routes as Switch,
   Route
 } from "react-router-dom";
-import { Oracle } from "src/screens";
+import { Oracle, Send } from "src/screens";
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
         <Route path="/" element={<Oracle />} />
+        <Route path="/send" element={<Send />} />
       </Switch>
     </Router>
   );
