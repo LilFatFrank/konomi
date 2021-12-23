@@ -1,5 +1,17 @@
 @import "../../styles/mixins.scss";
 
 .header {
-  @include flex(row, center, center, 10px);
+  width: 100%;
+  @include flex(row, center, space-between, 10px);
+  flex-wrap: wrap;
+  .title {
+    @include flex(row, center, center, 10px);
+  }
+  .button {
+    background: var(--card-bg);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
 }
