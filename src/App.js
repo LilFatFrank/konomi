@@ -1,10 +1,10 @@
-import { Oracle } from "./screens";
+import Routes from "./Routes/Routes";
 import classes from "./styles/app.module.scss";
 
 const App = () => {
   return (
     <div className={classes.app}>
-      <Oracle />
+      <Routes />
     </div>
   );
 };

@@ -41,15 +41,30 @@
     }
   }
   &.highlight {
+    .coin {
+      border: 1px solid var(--secondary);
+      border-bottom: none;
+      border-right: none;
+      background: var(--primary);
+    }
     .slant {
+      height: 37px;
       background: linear-gradient(
         to bottom left,
         var(--primary) 0%,
         var(--primary) 50%,
         var(--secondary) 55%,
-        var(--card-bg) 50%,
-        var(--card-bg) 100%
+        var(--primary) 50%,
+        var(--primary) 100%
       );
+    }
+    .status {
+      border-bottom: 1px solid var(--secondary);
+    }
+    .content {
+      border: 1px solid var(--secondary);
+      border-top: none;
+      background: var(--primary);
     }
   }
 }

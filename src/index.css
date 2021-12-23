@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./styles/fonts/Ubuntu-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-size: 14px;
+  font-family: "Ubuntu";
 }
 #root {
   height: 100%;
@@ -9,3 +16,4 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+  
